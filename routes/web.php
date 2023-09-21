@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/abdi', function (){
+    return '<h1>zxcvzxcvzxcvzxcvzx</h1>';
+});
+Route::get('/home', function (){
+    return view('home');
+});
